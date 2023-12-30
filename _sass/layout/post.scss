@@ -64,6 +64,10 @@ h1 + .post-meta {
     -ms-user-select: none;
     user-select: none;
 
+    position: absolute;
+    right: 0px;
+    margin-bottom: 50px;
+
     %icon-size {
       font-size: 1.125rem;
     }
@@ -327,6 +331,10 @@ h1 + .post-meta {
   &::after {
     content: ':';
   }
+}
+
+.post-tail-bottom {
+  position: relative;
 }
 
 @media all and (max-width: 576px) {
