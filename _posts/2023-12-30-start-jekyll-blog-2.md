@@ -28,7 +28,7 @@ Ruby를 설치하기 위해서 <a href="https://rubyinstaller.org/downloads/" ta
 버전은 다르더라도 반드시 **WITH DEVKIT**에서 **x86** 을 다운로드 해야합니다.  
 (**Tip.** Jekyll은 32bit입니다.)
 <br />
-<img src="../../assets/img/posts/start-jekyll-blog-2/ruby-download.png" alt="ruby 설치">
+<img src="/assets/img/posts/start-jekyll-blog-2/ruby-download.png" alt="ruby 설치">
 <br />
 설치 파일이 다운로드 되면 실행하여 프로그램 설치를 진행합니다.
 <br /><br />
@@ -46,7 +46,7 @@ ruby -v
 2. **Node.js 설치**  
 Node.js를 설치하기 위해서 <a href="https://nodejs.org/en" target="_blank">https://nodejs.org/en</a> 에 접속합니다.  
 **Download Node.js > LTS** 를 설치 파일을 다운로드 합니다.  
-<img src="../../assets/img/posts/start-jekyll-blog-2/node-download.png" alt="Node.js 설치">   
+<img src="/assets/img/posts/start-jekyll-blog-2/node-download.png" alt="Node.js 설치">   
 설치 파일이 다운로드 되면 실행하여 프로그램 설치를 진행합니다.  
 계속 **Next**를 클릭하고, **Finish** 버튼을 클릭하면 설치가 완료된 것입니다.
 <br /><br />
@@ -69,7 +69,7 @@ npm install -g win-node-env
 jekyll-theme-chirpy 레포에서 <a href="https://github.com/cotes2020/jekyll-theme-chirpy/fork" target="_blank">Fork</a>를 합니다.
 이때 Repository name은 `[github usename].github.io` 형식으로 입력합니다.  
 저의 경우 github username이 `kimdh-dev` 이므로, `kimdh-dev.github.io` 를 입력하였습니다.
-<img src="../../assets/img/posts/start-jekyll-blog-2/fork-chirpy.png" alt="테마 fork">
+<img src="/assets/img/posts/start-jekyll-blog-2/fork-chirpy.png" alt="테마 fork">
 
 #### 소스 클론
 블로그 소스를 본인의 컴퓨터로 가져옵니다.  
@@ -103,13 +103,13 @@ jekyll serve
 
 정상적으로 실행됐다면 아래와 같이 출력이 됩니다.
 <br />
-<img src="../../assets/img/posts/start-jekyll-blog-2/jekyll-local.png" alt="로컬 실행">
+<img src="/assets/img/posts/start-jekyll-blog-2/jekyll-local.png" alt="로컬 실행">
 <br />
 브라우저를 열고 <a href="http://127.0.0.1:4000">http://127.0.0.1:4000</a> 에 접속해서 기본 블로그 화면이 뜨면 로컬로 테스트는 끝난 것입니다.  
 <br />
 기본 블로그 화면
 <br />
-<img src="../../assets/img/posts/start-jekyll-blog-2/jekyll-local-web.png" alt="로컬 접속">
+<img src="/assets/img/posts/start-jekyll-blog-2/jekyll-local-web.png" alt="로컬 접속">
 <br />
 
 ## 블로그 기본 설정
@@ -154,12 +154,12 @@ git push orgin master
 
 Actions에서 빌드 중인 사진
 <br />
-<img src="../../assets/img/posts/start-jekyll-blog-2/deploy-github-actions.png" alt="Actions 빌드">
+<img src="/assets/img/posts/start-jekyll-blog-2/deploy-github-actions.png" alt="Actions 빌드">
 <br />
 
 빌드 완료 후 웹사이트에 접속했을 때 화면 (<a href="https://kimdh-dev.github.io/">https://kimdh-dev.github.io/</a>)
 <br />
-<img src="../../assets/img/posts/start-jekyll-blog-2/deploy-blog-web.png" alt="빌드된 웹사이트">
+<img src="/assets/img/posts/start-jekyll-blog-2/deploy-blog-web.png" alt="빌드된 웹사이트">
 <br />
 
 ## 참고
