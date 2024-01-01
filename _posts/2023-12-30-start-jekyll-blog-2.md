@@ -2,7 +2,7 @@
 title : Jekyll Chirpy 테마 사용하여 블로그 만들기
 date : 2023-12-30 18:00:00 +0900
 categories : [jekyll, chirpy]
-tags : [jekyll, chirpy, github-blog, github, blog]
+tags : [jekyll, chirpy, github-blog, github, blog, ruby]
 ---
 
 > Jekyll Chirpy 테마를 사용하여 블로그 만드는 방법입니다.
