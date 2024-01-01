@@ -72,7 +72,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://i.ibb.co/4mshgxQ/profile.png
+avatar: https://kimdh-dev.github.io/assets/img/avatar/profile.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true
